@@ -1,0 +1,21 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: blanchedalmond;
+}
+#para1 {
+    color: yellowgreen;
+}
+.para2 {
+    font-size: larger;
+}
+h1 {
+    color: rgb(12, 118, 82); 
+    background-color: rgb(240, 240, 136);
+}
+img {
+    height: 350px;
+    width: auto;
+}
+button {
+    border-radius: 5px;
+}

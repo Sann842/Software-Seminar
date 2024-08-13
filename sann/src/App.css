@@ -1,0 +1,25 @@
+* {
+  text-align: center;
+  background-color: #282c34;
+  font-family: b;
+}
+
+.header {
+  color: aquamarine;
+}
+
+.body {
+  color: white;
+  margin: 0 5%;
+}
+
+.btn {
+  background-color: beige;
+  font-size: large;
+  border-radius: 10px;
+  color: grey;
+}
+
+.btn:hover {
+  color: black;
+}

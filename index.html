@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #para1 {
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="background-color: beige;">Hello World</h1>
+    <p id="para1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, consequatur.</p>
+    <button id="button1" onclick="changetxt( 'Hello World' )">Change</button>
+
+    <script>
+        function changetxt() {
+            var ptag = document.getElementById(para1);
+            ptag.innerHTML = message;
+        }
+    </script>
+</body>
+</html>
