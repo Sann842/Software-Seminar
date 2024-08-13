@@ -1,19 +1,30 @@
 import './App.css';
+import Home from './Components/home';
+import About from './Components/About';
 import Example from './Components/Example';
+import { BrowserRouter,
+  Route,
+  Routes, Link, } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="header">
-        <h1>This is the header.</h1>
-      </header>
-      <div className="body">
-        <h2>This is the body.</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa distinctio eaque necessitatibus cum ipsam, quas accusamus deleniti asperiores natus deserunt!</p>
-        <button className="btn">Click me</button>
-      </div>
-      <Example/>
-    </div>
+      <BrowserRouter>
+          <nav>
+              <Link to="/">Home</Link>
+              <br />
+              <Link to="/about">About</Link>
+              <br />
+              <Link to="/example">Example</Link>
+              </nav>
+              <h1 style={{color:"teal"}}>This is my react page.</h1>
+              <Routes>
+              <Route path="/" exact Component={Home} />
+              <Route path="/about" Component={About} />
+              <Route path="/example" Component={Example} />
+              </Routes>
+              
+      </BrowserRouter>
+  
   );
 }
 export default App;
