@@ -6,16 +6,16 @@ function Counter() {
     return (
         <div>
             <p>Count: {count}</p>
-            <button style={{color:"white"}} onClick={() => setCount(count + 1)} >Increment </button>
-            <button style={{color:"white"}} onClick={() => setCount(count - 1)} >Decrement </button>
-            <button style={{color:"white"}} onClick={() => setCount(0)} > Reset </button>
+            <button onClick={() => setCount(count + 1)} >Increment </button>
+            <button onClick={() => setCount(count - 1)} >Decrement </button>
+            <button onClick={() => setCount(0)} > Reset </button>
 
             <br/>
 
             <p>Name: {name}</p>
-            <button style={{color:"white"}} onClick={() => setName('Wanda')} >Set name as Wanda </button>
-            <button style={{color:"white"}} onClick={() => setName('')} >Reset </button>
-            <button style={{color:"white"}} onClick={() => setName('Iron Man')} > Set name as Iron Man </button>
+            <button onClick={() => setName('Wanda')} >Set name as Wanda </button>
+            <button onClick={() => setName('')} >Reset </button>
+            <button onClick={() => setName('Iron Man')} > Set name as Iron Man </button>
         </div>
     )
 }

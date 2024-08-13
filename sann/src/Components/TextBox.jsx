@@ -11,7 +11,7 @@ const TextBox=() => {
     return (
         <div>
             <p onClick={onPClick}>This is me {name}</p>
-            <input style={{color:"white"}} value={name} onChange={updateName}/>
+            <input value={name} onChange={updateName}/>
         </div>    
     )
 }

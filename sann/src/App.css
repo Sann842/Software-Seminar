@@ -1,16 +1,16 @@
 * {
   text-align: center;
-  background-color: #282c34;
+  background-color: #babec4;
   font-family: b;
   font-size: large;
 }
 
 .header {
-  color: aquamarine;
+  color: rgb(48, 94, 78);
 }
 
 .body {
-  color: white;
+  color: rgb(238, 92, 92);
   margin: 0 5%;
 }
 
@@ -22,8 +22,4 @@
 
 .btn:hover {
   color: black;
-}
-
-.count {
-  color: white;
 }
