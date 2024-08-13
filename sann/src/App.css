@@ -2,6 +2,7 @@
   text-align: center;
   background-color: #282c34;
   font-family: b;
+  font-size: large;
 }
 
 .header {
@@ -15,11 +16,14 @@
 
 .btn {
   background-color: beige;
-  font-size: large;
   border-radius: 10px;
   color: grey;
 }
 
 .btn:hover {
   color: black;
+}
+
+.count {
+  color: white;
 }
