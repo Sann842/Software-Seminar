@@ -1,0 +1,10 @@
+/* place for all css to be used in Home components */
+.header {
+    font-size: larger;
+}
+.title {
+    font-size: 30px;
+}
+.text {
+    font-size: large;
+}

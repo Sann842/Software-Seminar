@@ -1,8 +1,13 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 function Counter() {
     const [count, setCount] = useState(0);
     const [name, setName] = useState('');
+
+    useEffect(()=>{
+        document.title=`You clicked ${count} times`;
+        }, [count]); // Updates the title only when "count" changes
+    
     return (
         <div>
             <p>Count: {count}</p>
