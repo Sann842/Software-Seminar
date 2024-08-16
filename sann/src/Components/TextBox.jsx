@@ -1,5 +1,6 @@
 import {useState} from "react";
 import "./Textbox.modules.css";
+import MessageBar from "./Message";
 
 const TextBox=() => {
     const [name, setName] = useState('');
@@ -18,7 +19,7 @@ const TextBox=() => {
             <div className="message">
                 {
                     messages.map(message=> {
-                        return <p>{message}</p>
+                        return <MessageBar key={message} message={message}/>
                     })
                 }
             </div>

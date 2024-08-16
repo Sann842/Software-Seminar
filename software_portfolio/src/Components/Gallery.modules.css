@@ -1,0 +1,14 @@
+.picture img{
+    height: 400px;
+    width: 200px;
+    margin: 10px;
+}
+button {
+    font-size: large;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.picture,
+.counter {
+    text-align: center;
+}

@@ -5,6 +5,7 @@ function Counter() {
     const [name, setName] = useState('');
 
     useEffect(()=>{
+        //console.log(`count`, count); use this to check if count is working or not
         document.title=`You clicked ${count} times`;
         }, [count]); // Updates the title only when "count" changes
     

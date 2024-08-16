@@ -1,0 +1,7 @@
+.bodyimg {
+    display: flex;
+    gap: 10px;
+}
+p {
+    font-size: larger;
+}
